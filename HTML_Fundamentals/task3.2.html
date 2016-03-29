@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="task" content="Basic HTML Page"> 
+  <meta charset="utf-8">
+  <title>task3.1</title>
+ <style>
+   table {
+    width: 100%;
+   }
+
+  thead {
+     background: #B5DCB3;
+       text-align: left;
+	     height: 50px;
+    }
+
+
+  tbody {
+    background: #EEEEEE; 
+     height: 300px;
+      font-size: 12px;
+	   vertical-align: top;
+    }
+
+
+  tfoot {
+    background: #B5DCB3;
+     font-size: 12px;
+   }
+
+   iframe {
+    height: 250px; 
+	width: 1100px;
+   }
+  </style>
+</head>
+
+
+<body>
+
+    <table border="0">
+
+      <thead>
+	   
+        <tr>
+          <th colspan="2">This is Web Page Main title</th>
+          <th width="20%"><a href="task3.1.html">Menu 1</a></th>
+        </tr>
+      </thead>
+
+
+      <tbody>
+       <tr>
+          <td style="background-color: #aaa" width="150">
+          <ul>
+            <li><a href="page1.html"  target="myframe">Page 1</a></li>
+            <li><a href="page2.html"  target="myframe">Page 2</a></li>
+          </ul>
+		  </td>
+        <td colspan="2">	
+		<iframe src="page1.html" name="myframe"></iframe>
+		 <hr color="#DBDBDB"/>
+        </td>
+       </tr>
+      </tbody>
+
+
+      <tfoot>
+        <tr>
+          <td colspan="3">Copyright © 2015 You</td>
+        </tr>
+      </tfoot>
+
+    </table>
+</body>
+
+</html>
