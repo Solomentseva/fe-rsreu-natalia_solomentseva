@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="task" content="HTML Advanced Page"> 
+  <meta charset="utf-8">
+  <title>HTML Advanced task2</title>
+  <style>
+ 
+.field {
+clear:both; text-align:right; line-height:25px;
+}
+
+ label {
+ float:left; padding-right:10px;
+ }
+ 
+.main{
+float:left
+}
+</style>
+</head>
+
+<body>
+
+<h1>Registration form</h1>
+
+
+   <form action="http://httpbin.org/" method="get" style="width:40%">
+   <fieldset>
+  
+    <legend>Personal Data</legend>
+	
+	<div class="main">
+      <div class="field"><label>First Name</label><input type="text" name="Surname"></div>
+      <br><br>
+      <div class="field"><label>Surname</label><input type="text" name="First Name"></div>
+      <br><br>
+		
+        <div class="field"><label>Sex</label>
+        <input type="radio" name="sex" value="male" checked/>Male<br>
+        <input type="radio" name="sex" value="female"/>Female</div><br>
+	</div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Contact information</legend>
+	  <div class="main">
+      <div class="field"><label>Site</label><input type="url" name="Site"></div>
+      <br><br>
+      <div class="field"><label>Email</label><input type="email" name="Email"></div>
+      <br><br>
+
+     <div class="field"><label>Phone</label><input type="text" name="Phone"></div>
+	 </div>
+      <br><br>
+    </fieldset>
+    <br>
+
+	 <input type="submit" value="Отправить"> 
+    </form>
+ 
+</body>
+
+</html>
