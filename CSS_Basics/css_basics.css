@@ -1,0 +1,166 @@
+﻿body {
+  background-color: #D8C1FF;
+    text-align: justify;
+
+}
+
+#title {
+  background-color: rgba(80%, 100%, 100%, .545); 
+  color: rgba(50%, 0%, 95%, 1);
+  height: 5rem;
+  font-family: Georgia;
+  line-height: 75px;
+  text-shadow: 0 0 20px rgba(150, 0, 200, 1), 0 0 20px rgba(1, 0, 100, 1);
+}
+
+#h3left {
+ text-align: left;
+    color: red;
+	    font-family: Arial;
+		  font-variant: normal;
+		  text-decoration: overline;
+
+
+}
+
+#h3center {
+ text-align: center;
+ color: #21326A;
+ font-family: Helvetica;
+	font-size: 1.5em;
+        font-variant: small-caps;
+		  text-decoration: underline;
+
+
+}
+
+#h3right {
+ text-align: right;
+    color: rgb(255,145,0);
+	    font-family: Geneva, sans-serif;
+		  text-decoration: line-through;
+
+		
+
+}
+
+#h3left, #h3center, #h3right {
+font-style: italic;
+}
+
+
+
+#yellow {
+  background-color:yellow;
+  width: 25px;            
+  height: 15px;
+  margin: 10px;
+  padding: 65px; 
+ }
+
+#pink {
+  background-color: rgb(255,0,255);
+  width: 500px;            
+  height: 50px;
+  margin: 40px;
+  padding: 100px; 
+}
+
+#yellow, #pink {
+font-style: oblique;
+    text-decoration: underline;
+}
+
+#div1 {
+  height: 200px;
+  background-image: url(http://www.rosino.ru/images/1030331500_2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#div2 {
+  height: 150px;
+  background-image: url(http://www.rosino.ru/images/1030331500_2.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+#p1{
+ font-size: 35px;
+ font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+#p2{
+ text-align: center;
+ color: blue;
+ font-family: Courier New, monospace;
+ font-variant: small-caps;
+}
+
+#p3{
+color: rgba(50%, 0%, 95%, 1);
+font-family: Impact, fantasy;
+font-size: 1.5em;
+padding: 75px;
+margin: 35px;
+font-weight: lighter;
+}
+
+#p4{
+ color: #21326A;
+ font-family: Lucidatypewriter, monospace;
+	  padding: 75px;
+        margin: 35px;
+		 font-size: 20px;
+         font-variant: normal;
+         font-weight: 900;
+}
+
+
+.color {
+    font-family: "qwe", "sdfsd", sans-serif;
+    padding: 50px;
+    margin: 50px;
+    font-size: 35px;
+	font-weight: bold;
+    background-color: rgba(50, 10, 200, .2); 
+    color: rgba(90%, 100%, 0%, .9);
+} 
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+	
+}
+
+p.uppercase {
+    text-transform: uppercase;
+	  direction:rtl;
+	  letter-spacing: -2px;
+	  background-color: rgba(50, 10, 0, .2); 
+
+}
+
+p.lowercase {
+    text-transform: lowercase;
+	  letter-spacing: 10px;
+	  background-color: rgba(0, 200, 200, .2); 
+	    white-space: pre-line;
+
+
+}
+
+p.capitalize {
+    text-transform: capitalize;
+	background-color: rgba(0, 0, 200, .2);
+	  line-height: 50px;
+	 white-space: normal;
+	   word-spacing: 10px;
+}
+
+
+
+
