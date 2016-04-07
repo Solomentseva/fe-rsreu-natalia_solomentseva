@@ -1,0 +1,308 @@
+﻿body {
+background-image: url(http://i.imgur.com/nUjwz0R.jpg);
+background-attachment: fixed;
+width: 100%;
+}
+
+h1 {
+color: #569099;
+}
+
+
+/*task 1*/
+
+#container {
+ width: 330px;
+  margin: 30px 1000px 70px 30px;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  background-image: url(http://www.androidunits.ru/avatars/igrok.gif?dateline=1365883677);
+  box-shadow: 0 0 20px rgba(0,0,0,0.9) inset;
+  margin: 10px 0 0 5px;
+  transition: all 0.5s;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.highlight:hover {
+  background-image: url(http://analogindex.ru/image/27251/1024x1024/apple-gotovit-apple-pay-k-vyhodu-na-evropejskij-rynok.jpeg);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5) inset;
+}
+
+.fade:hover {
+  border: 0px;
+  opacity: 0;
+}
+
+.boom:hover {
+  opacity: 0;
+  transform: scale(2, 2);
+}
+
+.focus:hover {
+  border-width: 20px;
+}
+
+.rotate:hover {
+  transform: rotate(90deg);
+}
+
+.knit:hover {
+  height: 0px;
+}
+
+.shrink:hover {
+  transform: scale(0.0, 0.0);
+}
+
+.squeeze:hover {
+  transform: scale(1.5, 0.0);
+}
+
+.deform:hover {
+  transform: skew(45deg, 45deg);
+}
+
+
+
+/*task 2*/
+
+#h1text {
+  background-color: #569099;
+  color: white;
+}
+
+#ptext {
+  background-color: #CAD8D0;
+}
+
+#h1text, #ptext {
+  padding: 15px;
+}
+
+#text {
+width: 350px;
+ margin: 30px 1200px 70px 30px;
+}
+
+
+
+/*task 3*/
+
+#links{
+ margin: 30px;
+ font-size: 40px;
+
+}
+
+a {
+    color: #569099;
+    display: inline-block;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+
+a:after {
+    display: block;
+    content: "";
+    height: 4px;
+    width: 0%; 
+    background-color: #569099;
+    transition: width .5s ease-in-out;
+}
+
+a:hover:after {
+    width: 100%;
+}
+   
+   
+.line {
+   color: red;
+}
+
+/*task 4*/
+
+#circle-container {
+ border: 5px solid gray;
+ box-shadow: 0 0 150px rgba(0,0,0,0.9) inset;
+ width: 350px;
+ height: 250px;
+ margin: 30px 1000px 70px 30px;
+ background: linear-gradient(45deg, #FFFFFF 75px, #9FBCB7, #FFFFFF ,#00BC9E);
+}
+
+#circle {
+    margin: 65px 115px;
+    width: 120px;
+	height: 120px;
+	background: #00BC9E;
+	border-radius: 75px;
+}
+
+
+/*task 5*/
+
+#button-shadow {
+   margin: 30px 1000px 70px 30px;
+   width: 350px;
+   height: 75px;
+   border-radius: 20px  20px  20px 20px ;
+   font-size: 35px;
+   font-family:  arial,sans-serif;
+   color: #FFFFFF;
+   background: #7492DF linear-gradient(#404380, #7492DF);
+   border: 1px solid white;
+}
+
+#button-shadow:hover {
+  box-shadow: 0 0 150px #CBF1F5;
+}
+
+
+
+/*task 6*/
+
+
+.adaptive-text {
+  margin: 30px 30px 70px 30px;
+  padding: 15px;
+  background-color: #CAD8D0;
+}
+
+
+
+/*task 7 animation*/
+
+.loading {
+  margin: 100px 1000px 70px 30px;
+  width: 100px;
+  height: 100px;
+  border: 20px solid #9DFF9D; 
+  border-top-color: rgb(0,255,0);
+  border-radius: 100%;
+  animation: loading linear .9s infinite;
+}
+@keyframes loading {
+  100% {transform: rotate(360deg);}
+}
+
+
+
+.infinite-animation {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(45deg, #A0285A 45px, #3A91E2, #85198E ,#40198E);
+  margin-left: 30px;
+  animation-name: infinite-anim;
+  animation-iteration-count: infinite;
+  animation-duration: 9s;
+  animation-direction: alternate-reverse;
+  position: relative;
+}
+
+@keyframes infinite-anim {
+  0% { 
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+  }
+  
+   20%  { 
+   width: 250px;
+    height: 250px;
+	 border-radius: 0;
+	 background: linear-gradient(45deg, #A0285A 45px, #3A91E2, #85198E ,#40198E);
+	 transform: rotate(180deg);
+  }
+  
+   40%  { 
+   width: 250px;
+    height: 250px;
+	 border-radius: 0;
+	 background: linear-gradient(90deg, #00A6FF 45px, #00FF3E, #E1FF4D ,#DE2C2C);
+	 transform: rotate(180deg);
+  }
+  
+  60%  { 
+   width: 150px;
+    height: 150px;
+	 border-radius: 0;
+	 background: linear-gradient(90deg, #00A6FF 45px, #00FF3E, #E1FF4D ,#DE2C2C);
+  }
+  
+  65%  { 
+   width: 150px;
+    height: 150px;
+	 border-radius: 0;
+  }
+
+  100%  { 
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+  }
+}
+
+
+#up {
+  width: 250px;
+  height: 50px;
+  margin: 30px 1000px 160px 30px;
+  border-radius: 5px  5px  5px 5px;
+   background: #7492DF linear-gradient(#404380, #7492DF);
+   border: 3px solid #333965;
+}
+
+#down {
+  width: 250px;
+  height: 50px;
+  margin: 5px 1000px 70px 30px;
+  border-radius: 5px  5px  5px 5px;
+   background: #7492DF linear-gradient(#404380, #7492DF);
+   border: 3px solid #333965;
+}
+
+.circle {
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(180deg, #B2002A 20px, #B377B3, #B2002A, #C70047 );
+  margin-left: 125px;
+  animation-name: circle;
+  animation-iteration-count: infinite;
+  animation-duration: 0.7s;
+  animation-direction:  alternate;
+  position: relative;
+}
+
+@keyframes circle {
+  0% { 
+    border-radius: 100%;
+	bottom: 10em;
+  }
+  
+  100%  { 
+    border-radius: 100%;
+	bottom: -3px;
+  }
+}
+  
+  
+/*task 6  @media*/
+
+@media screen and (max-width: 500px) {
+  .adaptive-text {
+    font-size: 20px;
+	color: red;	
+  }
+}
+
+
+
+
+
