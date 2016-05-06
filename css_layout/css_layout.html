@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="task" content="Layout CSS Page">
+  <meta charset="utf-8">
+  <title>css_layout</title>
+  <link rel="stylesheet" href="css_layout.css">
+  <link rel="stylesheet" href="css_layout_reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<header>
+    <div id="checkbox-id"><img src="img/checkbox.png" alt="img"/></div>
+    <div id="header-top-menu__autor"><a href="">John Doe</a></div>
+	<div id="header-top-menu__foto"><img src="img/foto.png" alt="img"/></div>
+	
+    <ul class="header-top-menu">
+      <li><a href="">Help Center</a></li>
+	  <li><a href="">Our Support</a></li>
+	</ul> 
+</header>
+
+
+  <div id="sidebar">
+     <div id="sidebar__button"><a href="">+ ADD A BOOK</a>
+	 </div>
+	 <hr class="sidebar__hr"/>
+	 
+	 <ul id="sidebar__ul-pictures">
+	    <li><a href="">Now Reading</a></li>
+		<li><a href="">Browse</a></li>
+		<li><a href="">Buy Books</a></li>
+		<li><a href="">Favorite Books</a></li>
+		<li><a href="">Wishlist</a></li>
+		<li><a href="">History</a></li>
+	 </ul>
+	 <hr class="sidebar__hr"/>
+	 
+
+	 <ul id="sidebar__ul">
+	    <li id="li-red"><a href="">Must Read Titles</a></li>
+		<li id="li-yellow"><a href="">Best Of List</a></li>
+		<li id="li-blue"><a href="">Classic Novels</a></li>
+		<li id="li-purple"><a href="">Non Fiction</a></li>
+	 </ul>
+	 <hr class="sidebar__hr"/>
+	 
+	 
+	    <p id="paragraph1">You added Fight Club by
+		                           Chuck Palahniuk to you
+								   Must Read Titles.
+								   <br/>24 minutes ago</p>
+		<p id="paragraph2">You added The Trial by
+		                   Franz Kafka to you Must
+						   Read Tilos.
+						   <br/>48 minutes ago</p>
+	 
+	 
+  </div>
+ 
+<div class="main"> 
+  <div id="menu">
+    <p id="menu-title"><span class="span-menu-title">Browse Available Books</span></p>
+	<hr id="menu__hr"/>
+	<ul class="menu-list">
+	   <li><a href="">All Books</a></li>
+	   <li><a href="">Most Recent</a></li>
+	   <li><a href="">Most Popular</a></li>
+	   <li><a href="">Free Books</a></li>
+	</ul>
+	
+
+	<form class="search" method="get" action="http://example.org/">
+       <input type="search" name="search" placeholder="Enter Keywords" class="input" />
+       <input type="submit" name="submit" value="" class="submit" />
+    </form>
+
+  </div>
+
+  <div class="flex-container">
+  
+	    <figure class="flex-item">
+		   <a href=""><img src="img/1.png" alt="img"></a>
+		   <figcaption>
+				<p class="product-description"><a href="">Jewels of Nizam</a></p>
+				<p class="product-autor"><a href="">by Geeta Devi</a></p>
+				<ul class="fa-star">
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+					<li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				</ul>
+			</figcaption>
+		</figure>
+		
+		
+	  
+    <figure class="flex-item">
+		<a href=""><img src="img/2.png" alt="img"></a>
+		<figcaption>
+		<p class="product-description"><a href="">Cakes & Bakes</a></p>
+		<p class="product-autor"><a href="">by Sanjeev Kapoor</a></p>
+        <ul class="fa-star">
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+					<li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				</ul>
+      	</figcaption>
+	</figure>
+	  
+	  
+	 <figure class="flex-item">
+		 <a href=""><img src="img/3.png" alt="img"></a>
+		 <figcaption>
+		<p class="product-description"><a href="">Jamie's Kitchen</a></p>
+		<p class="product-autor"><a href="">by Jamie Oliver</a></p>
+        <ul class="fa-star">
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+					<li><a href=""><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+				</ul>
+      </figcaption>
+	</figure>
+	  
+	  
+	  
+	   <figure class="flex-item">
+		   <a href=""><img src="img/4.png" alt="img"></a>
+		 <figcaption>
+		<p class="product-description"><a href="">Inexpensive Family Meals</a></p>
+		<p class="product-autor"><a href="">by Simon Holst</a></p>
+        <ul class="fa-star">
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+					<li><a href=""><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+				</ul>
+        </figcaption>
+	</figure>
+	
+	
+	  <figure class="flex-item">
+		   <a href=""><img src="img/5.png" alt="img" ></a>
+		 <figcaption>
+		<p class="product-description"><a href="">Paleo Slow Cooking</a></p>
+		<p class="product-autor"><a href="">by Chrissy Gower</a></p>
+        <ul class="fa-star">
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+					<li><a href=""><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+				</ul>
+         </figcaption>
+	 </figure>
+	 
+	  
+	  <figure class="flex-item">
+		   <a href=""><img src="img/6.png" alt="img"></a>
+		 <figcaption>
+		<p class="product-description"><a href="">Cook Like an Italian</a></p>
+		<p class="product-autor"><a href="">by Tobie Puttock</a></p>
+        <ul class="fa-star">
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+					<li><a href=""><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+				</ul>
+       </figcaption>
+	 </figure>
+	 
+	  
+	  <figure class="flex-item">
+		   <a href=""><img src="img/7.png" alt="img"></a>
+		 <figcaption>
+		<p class="product-description"><a href="">Suneeta Vaswani</a></p>
+		<p class="product-autor"><a href="">by Geeta Devi</a></p>
+        <ul class="fa-star">
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+					<li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				</ul>
+          </figcaption>
+	 </figure>
+	  
+	  <figure class="flex-item">
+		   <a href=""><img src="img/8.png" alt="img"></a>
+		   <figcaption>
+		<p class="product-description"><a href="">Jamie Does</a></p>
+		<p class="product-autor"><a href="">by Jamie Oliver</a></p>
+       <ul class="fa-star">
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+					<li><a href=""><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+				</ul>
+			</figcaption>
+        
+	 </figure>
+	  
+	   <figure class="flex-item">
+		   <a href=""><img src="img/9.png" alt="img"></a>
+		<figcaption>
+		<p class="product-description"><a href="">Jamie's Italy</a></p>
+		<p class="product-autor"><a href="">by Jamie Oliver</a></p>
+        <ul class="fa-star">
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+					<li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				</ul>
+        </figcaption>
+	 </figure>
+	  
+	  <figure class="flex-item">
+		  <a href=""><img src="img/10.png" alt="img"></a>
+		<figcaption>
+		<p class="product-description"><a href="">Vegetables Cookbook</a></p>
+		<p class="product-autor"><a href="">by Matthew Biggs</a></p>
+       	<ul class="fa-star">
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+				    <li><a href=""><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+					<li><a href=""><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+				</ul>
+       </figcaption>
+	 </figure>
+</div>
+</div>
+
+
+
+<footer>
+	<div id="footer-images-settings"><a href=""><img src="img/footer-images-settings.png" alt="img"/></a></div>
+	<div id="footer-images-question"><a href=""><img src="img/footer-images-question.png" alt="img"/></a></div>
+</footer>
+
+</body>
+
+</html>
